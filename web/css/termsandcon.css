@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+body{ margin: 0px;
+    padding:0px;
+    width: 100%;
+    min-height: 100vh;
+    background-image:url('../resources/img/terms3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Poppins', sans-serif;
+    line-height: 3rem;
+    
+}
+#parentterms{
+    height:690px;
+    width: 60vw;
+    /* border: 2px solid rgb(147, 146, 146); */
+    box-shadow: 2px 2px 15px rgb(86, 85, 85);
+    margin: auto;
+      position: relative;
+      top: 110px;
+      padding: 30px;
+      font-size: 1.8rem;
+      font-weight:300;
+      margin-bottom: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      box-sizing: border-box;
+      
+      
+}
+#childterms{
+    height: 420px;
+    /* width: 500px;border: 2px solid black; */
+    padding: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+    /* box-shadow:0px 0px 40px black ; */
+
+}
+.paragraph-terms{
+    padding-top: 20px;
+}
+
+h1{
+    padding-bottom: 50px;
+}
+
+h5{
+    /* padding-top: 10px; */
+    font-size: 20px;
+}
+.buttons button{
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#childterms h5{
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+
+input[type="checkbox"]{
+   /* appearance: none;
+   -webkit-appearance: none; */
+   height: 25px;
+   width: 25px;
+   /* background-color: rgb(165, 226, 221); */
+  /* border: 1px solid rgb(135, 134, 134); */
+   border-radius: 5px;
+   cursor: pointer;
+} 
+.aa{
+    width: 3.5%;
+    margin-top: 30px;
+}
+.bb{
+    text-align: center;
+    padding-top: 27px;
+    width: 70%;
+}
+
+
+
+
+/* .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
+
+
+
+
+#childterms::-webkit-scrollbar{
+    width: 6px;
+    background-color: #6b6363ac;
+}
+
+#childterms::-webkit-scrollbar-thumb{
+ 
+    background-color: rgb(70, 80, 110);
+}
+
+#red{
+height: 50px ;
+width: 120px;
+font-weight: bold;
+box-shadow: 2px 4px 2px black;
+font-size: 15px;
+}
+#black{
+height: 50px ;
+width: 120px;
+font-weight: bold;
+box-shadow: 2px 4px 2px black;
+margin-left: 10px;
+font-size: 15px;
+}
+#red:hover{
+/* background-color: rgb(247, 136, 158); */
+background-color:rgb(144, 172, 99);
+color: purple;
+
+}
+#black:hover{
+background-color: rgb(244, 106, 106);
+color: purple;
+}
+@media only screen and (width<=525px)
+{#parentterms{
+    height:auto;
+    width: 70vw;
+    /* border: 2px solid rgb(147, 146, 146); */
+    box-shadow: 2px 2px 15px rgb(86, 85, 85);
+    margin: auto;
+      position: relative;
+      top: 110px;
+      padding: 30px;
+      font-size: 1.4rem;
+      font-weight:300;
+      margin-bottom: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      box-sizing: border-box;
+      justify-content: center;
+      
+      
+}
+.bb{
+    text-align: center;
+    padding-top: 27px;
+    margin-left: 10px;
+    width: 70%;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#childterms{
+  overflow-x: hidden;
+
+}
+
+    
+}
+

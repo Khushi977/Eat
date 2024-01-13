@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+*{
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --main-color:#0a3150;
+    --main-color-light:#063a64;
+    --primary:#cfdde6;
+    --black:#141414;
+    --white:#fff;
+    --bg: #f2f2f2;
+    --light-black:#666;
+    --light-orange:#f99b63;
+}
+.top-diet-head h2{
+    font-size: 4rem;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-left: 17rem; */
+    text-align: center;
+    padding: 15rem;
+    color: var(--main-color);
+
+}
+.diet-heading-container{
+    background-image: url("../resources/img/newsletter.jpg") ;
+    background-size: cover;
+    height: 40vh;
+    
+}
+ .diet-head {
+    padding: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+}
+/* diet meal section start here */
+.diet-meal{
+    margin: 8rem;
+}
+.diet-meal .controls{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+ }
+ 
+ 
+ 
+ .diet-meal .controls .buttons{
+    padding: 3rem 2rem;
+    background: var(--white);
+    cursor: pointer;
+    margin-bottom: 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+    text-align: center;
+    border-radius: 1rem;
+ }
+ 
+ .diet-meal .controls .buttons img{
+    height: 20rem;
+ }
+ 
+ .diet-meal .controls .buttons h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: var(--light-black);
+ }
+ 
+ .diet-meal .controls .buttons.active{
+    background: var(--primary);
+ }
+ 
+
+ /* end */
+
+
+  /* =========table section start from here ==========*/
+
+.table-head-container{
+     padding:  0px; 
+    margin-top: 10rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    
+    display: grid;
+    gap: 20rem;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    /* margin: 18rem; */
+   
+    
+}
+
+.diet-table{
+    /* display: flex; */
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-shadow: 5px 10px 10px 0 rgba(0,0,0,0.5) ;
+}
+table{
+    width: 500px;
+
+    }
+
+
+.diet-table thead{
+    background-color: var(--main-color);
+    text-align: center;
+    color: var(--primary);
+
+    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3); */
+}
+.diet-table thead tr th{
+    font-size: 4rem;
+    letter-spacing: 0.35px;
+    opacity: 1;
+    padding: 1rem;
+    vertical-align: top;
+    /* border: 1px solid var(--main-color); */
+    /* border-radius: 1rem; */
+
+}
+
+.diet-table tbody tr td{
+    font-size: 2.5rem;
+    letter-spacing: 0.35px;
+    background-color: var(--primary);
+    padding: 8px;
+    /* text-align: center; */
+    border: 1px solid var(--main-color);
+    
+}
+/* .veg-head{
+    background-color: var(--light-orange);
+    color: var(--main-color);
+} */
+
+.option-meal{
+   
+    font-size: 2.5rem;
+    letter-spacing: 0.35px;
+    /* background-color: var(--primary); */
+    padding: 8px;
+    border: 1px solid var(--primary);
+}
+
+/* For screens smaller than 768px, make the table full-width */
+@media (max-width: 768px) {
+    .diet-table {
+      width: 100%;
+    }
+  
+    .diet-table thead {
+       display: none;/* Hide the table header on small screens */
+    }
+  
+    .diet-table tbody tr {
+      display: block; /* Display table rows as blocks */
+      margin-bottom: 20px;
+    }
+  
+    .diet-table tbody tr td {
+      display: block; /* Display table data cells as blocks */
+      text-align: left; /* Reset text alignment */
+      border: none; /* Remove borders */
+    }
+  
+    .diet-table tbody tr td:before {
+      content: attr(data-label); /* Use the data-label attribute as a label for each cell */
+      font-weight: bold; /* Make the labels bold */
+    }
+  }
+  
+
+
+  /*==========newsletter============*/
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("/images/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    height: 20vh;
+    padding: 6rem;
+    margin-bottom: 2rem;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size:1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 30%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter a{
+    background-color: #088178;
+    color:#000;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /* font-size: 2rem; */
+    margin-top: 1rem;
+    padding: 1.5rem 4rem;
+    color: var(--white);
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.normal{
+    font-size: 2rem;
+}

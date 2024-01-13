@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{ margin: 0px;
+    padding:0px;
+    width: 100%;
+   height: auto;
+    background-image:url('../resources/img/wellness-body-backgrnd.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Poppins', sans-serif;
+    /* line-height: 1.5rem; */
+    
+}
+
+.wlns-video-container{
+    width: 80%;
+    margin: 80px auto;
+    margin-bottom: 200px;
+   
+
+}
+
+.wlnes-vdo-heading{
+    padding: 60px 0;
+    color: rgb(15, 15, 52);
+    font-size: 50px;
+    text-align: center;
+}
+
+.wlns-row{
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap; 
+ height:500px;
+ 
+}
+.wlns-column1{
+    flex-basis: 50%;
+    /* min-width: 250px; */
+    /* overflow: hidden;
+    overflow-y: scroll; 
+    height:550px ;
+   */
+  
+}
+
+.wlns-column{
+    flex-basis: 50%;
+    /* min-width: 250px; */
+    overflow: hidden;
+    overflow-y: scroll; 
+    height:550px ;
+    padding-right: 10px;
+   
+  
+}
+
+.wlns-column::-webkit-scrollbar{
+    width: 6px;
+    background-color: #6b6363ac;
+    
+}
+
+.wlns-column::-webkit-scrollbar-thumb{
+ 
+    background-color: rgb(70, 80, 110);
+}
+
+
+
+
+.wlns-feature-img{
+   width: 80%;
+   margin: auto;
+   position: relative;
+   /* bottom: 500px; */
+   border-radius: 10px;
+   overflow: auto; 
+   box-shadow: 2px 2px 20px rgb(81, 80, 80);
+}
+
+
+.wlns-small-img-row{
+   display: flex;
+   background: #b0e6e7; 
+   box-shadow: 2px 2px 10px rgb(81, 80, 80);
+    margin: 20px 0;
+    align-items: center;
+   border-radius: 10px;
+   /* overflow: hidden; */
+  
+
+}
+
+
+
+.wlns-small-img-row p{
+margin-left: 20px;
+font-size: 15px;
+color: rgb(49, 48, 48);
+}
+
+
+.wlns-small-img{
+    position: relative;
+}
+
+.wlns-small-img img{
+    width: 200px;
+}
+
+.wlns-play-btn{
+    width: 60px;
+    position:absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    cursor: pointer;
+}
+
+
+.wlns-small-img .wlns-play-btn{
+    width: 35px;
+}
+
+
+.wellness-vdo-player{
+    width: 80%;
+    /* height: 90%; */
+    position:absolute ;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50% ,-50%);
+    display: none;
+   
+}
+.wellness-vdo-player:focus{
+    outline: none;
+}
+
+.wlns-close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 40px;
+}
+
+@media only screen and (width<=1200px){
+
+    .wlns-row{
+        display: block;
+        height:auto;
+        
+       }
+
+
+       .wlns-column{
+        flex-basis: 50%;
+        /* min-width: 250px; */
+        overflow: hidden;
+        overflow-y: scroll; 
+        height:550px;
+        padding-right: 10px;
+        margin-top: 30px;
+        /* margin-bottom: 40px; */
+       
+      
+    }
+
+    .wlns-video-container{
+        width: 80%;
+        margin: 80px auto;
+        margin-bottom: 70px;
+       
+    
+    }
+    .wellness-vdo-player{
+        width: 80%;
+        /* height: 90%; */
+        position:absolute ;
+        left: 50%;
+        top: 68%;
+        transform: translate(-50% ,-50%);
+        display: none;
+      
+        
+       
+    }
+
+    .wlns-column{margin-top: 20%;}
+    
+
+
+}
+
+
+
+@media only screen and (width<=992px){
+
+  
+
+    .wellness-vdo-player{
+        width: 80%;
+        /* height: 90%; */
+        position:absolute ;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50% ,-50%);
+        display: none;
+       
+    }
+    /* .wlns-feature-img{
+        visibility: hidden;
+        
+    } */
+
+    .wlns-column{margin-top: 15%;}
+
+}
+
+
+
+
+
+
+
+@media only screen and (width<600px){
+
+  
+    .wlns-small-img-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* height: 30vh; */
+        box-sizing: border-box;
+        box-shadow: 2px 2px 10px rgb(81, 80, 80);
+        padding-bottom: 20px;
+
+    }
+    .wellness-vdo-player{
+        width: 80%;
+        position:absolute ;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50% ,-50%);
+        display: none;
+       
+    }
+
+    .wlns-small-img img{
+        width: 100%;
+    }
+    /* .wlns-feature-img{
+        visibility: hidden;
+        
+    } */
+
+
+    .wlns-column{margin-top: 15%;}
+}
+
+
+@media only screen and (width<=400px){
+
+  
+    .wlns-feature-img{
+        display: none;
+        
+    }
+    .wellness-vdo-player{
+        width: 80%;
+        position:absolute ;
+        left: 50%;
+        top: 75%;
+   
+        transform: translate(-50% ,-50%);
+        display: none;
+       
+       
+    }
+    .wlns-column{margin-top: 15%;}
+
+
+
+}
+

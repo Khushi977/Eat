@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+:root{
+    --main-color:#0a3150;
+    --main-color-light:#063a64;
+    --primary:#cfdde6;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #e2dde1, #cfc9d4, #b6b6c9, #98a5bd, #7596af);
+}
+form{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15);
+}
+label{
+    font-weight: 500;
+    color: #101030;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    color: #101010;
+    margin-bottom: 2rem;
+}
+#password{
+    margin-bottom: 30px;
+}
+input[type="password"]{
+    border: 2px solid #c2c2c2;
+}
+input[type="submit"]{
+    background-color:var(--main-color);
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+p{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #ffffff;
+}
+#toggle-pass1 {
+    position: absolute;
+    top: 26%; /* Adjust the vertical position */
+    right: 17%; /* Adjust the horizontal position */
+    transform: translateY(-26%);
+    cursor: pointer;
+    z-index: 1; /* Ensure it's above the input field */
+  }
+
+  #toggle-pass2 {
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    right: 17%; /* Adjust the horizontal position */
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1; /* Ensure it's above the input field */
+  }
+  input[type="password"] {
+    padding-right: 30px; /* Ensure enough space for the icon */
+  }

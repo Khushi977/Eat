@@ -1,0 +1,175 @@
+/* main section design starts */
+
+.ExpertArticle-1-image{
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.ExpertArticle-1-image-child{
+    width: 100%;
+    height: 900px;
+}
+
+.Expert-Article-1-Description{
+    width: 70vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.parano-1{
+    font-size: 25px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.article-h1{
+    font-size: 50px;
+}
+
+
+.miniheading{
+    font-size: 20px;
+    padding:50px ;
+    box-sizing: border-box;
+}
+.miniheading p{
+    font-size: 25px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../resources/img/food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.nutrients-details{
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.nutrients-details-mini{
+    margin: 20px;
+}
+
+
+.ingredients-parent{
+    width: 70%;
+    height: auto;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+/* .pretag{
+    font-size: 25px;
+} */
+
+.parano-2{
+    width: 70vw;
+}
+
+#nutrition, #steps{
+    margin-top: 70px;
+}
+
+
+@media only screen and (width<=600px)
+    {
+      .ExpertArticle-1-image-child{
+    height: 300px;
+    width: 100%;
+      }
+
+      .ExpertArticle-1-image{
+        margin-top: 50px;
+       
+    }
+
+    .ingredients-parent{
+        /* height: auto; */
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .parano-1{
+        font-size: 20px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .parano-2{
+        width: 80vw;
+        padding: 15px;
+    }
+
+    .nutrients-details{
+        height: auto;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 20px;
+        padding: 15px;
+    
+    }
+
+    }
+
+
+
+    @media only screen and (width<=1200px)
+    {
+      
+
+      .ExpertArticle-1-image{
+        margin-top: 50px;
+       
+    }
+
+    .nutrients-details{
+        height: auto;
+        width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 20px;
+        padding: 20px;
+    
+    }
+
+    .ingredients-parent{
+        /* height: auto; */
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .parano-1{
+        font-size: 20px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    }
+
+
+/* main section design ends */

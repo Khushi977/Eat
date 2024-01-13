@@ -1,0 +1,203 @@
+
+/* main body design starts here */
+
+.heading-healthy-recipes {
+    /* background-color:rgb(219, 238, 247); */
+    width: 100%;
+    height: auto;
+    font-size: 35px;
+    padding: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+   margin-top: 90px;
+   color: #06253e;
+   background-image: url('../resources/img/food.jpg');
+   /* background-position: center; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+ 
+}
+
+.for-heading-recipes{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .heading-recipes-details{
+      font-size: 20px;
+      
+  }
+  
+
+
+
+  /* main div design starts */
+
+
+
+
+  .expert-article-container {
+    width: 100%;
+    height: auto;
+    background-color:rgba(243, 240, 240, 0.865);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+   /* margin-top: 30px; */
+   box-sizing: border-box;
+  
+  
+  }
+  
+  
+  
+  .expert-article-container-mini{
+  
+  height: 600px;
+  width: 480px;
+  /* background-color: #29cf2e; */
+  background-color: #cfdde6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 15px var(--light-black);
+  
+  }
+  
+  .expert-article-container-mini:hover{
+    transform: scale(0.90);
+  
+  }
+  
+  .healthy-expert-article-mini{
+    height: 300px;
+    width: 100%;
+  }
+  
+  .details-of-article{
+  
+    padding: 20px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+  
+  
+  }
+  .content-title{
+  
+  font-size: 22px;
+  
+  }
+  
+  .primary-detail{
+    font-size: 18px;
+    margin-top: 15px;
+  
+  }
+  
+  .View-Recipe{
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 3px 3px 7px var(--light-black);
+    /* position: absolute;
+    left; */
+  }
+  
+
+.View-Recipe:hover{
+  background-color: pink;
+  
+}
+
+
+
+
+
+
+  @media only screen and (width<374px)
+      {
+            .primary-detail{
+              display: none;
+            } 
+  
+            .expert-article-container-mini{
+              height: auto;
+            }
+  
+  
+            .healthy-expert-article-mini{
+              height: 200px;
+              width: 100%;
+            }
+      }
+  
+
+      @media only screen and (width<=992px) and (width>=610px)
+      {
+        .expert-article-container{
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+        }
+
+      }
+  
+
+      @media only screen and (width<1200px)
+      {
+            /* .primary-detail{
+              display: none;
+            } 
+   */
+            .expert-article-container-mini{
+              height: auto;
+            }
+  
+  
+            .healthy-expert-article-mini{
+              /* height: 200px; */
+              width: 100%;
+            }
+            .heading-healthy-recipes {
+              
+              width: 100%;
+              height: auto;
+              font-size: 30px;
+              padding: 20px;
+              padding-left: 50px;
+              box-sizing: border-box;
+             margin-top: 70px;
+             color: #06253e;
+             background-image: url('img/food.jpg');
+             /* background-position: center; */
+             background-repeat: no-repeat;
+             background-size: cover;
+             
+           
+          }
+
+            
+      }
+
+
+  /* main div design ends */
+
+
+/* main body design ends here */
+
+
+ 

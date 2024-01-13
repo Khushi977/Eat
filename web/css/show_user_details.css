@@ -1,0 +1,155 @@
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 0%, rgba(55,132,199,1) 90%);
+}
+
+
+
+h1{
+    font-size: 45px;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  height: 200px;
+  box-shadow: 4px 4px 10px black;
+  
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 2.5rem;
+  border:1px solid black;
+}
+
+.user-details-table{
+    height: auto;
+    width: 90%;
+      max-width: 800px;
+    margin: auto;
+    background-color: yellowgreen;
+    margin-top: 15vh;
+      margin-bottom: 20vh;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+
+
+     #user-profile-icon-image{
+    height:200px ;
+    width: 200px;
+margin-top:40px;
+
+}
+
+.user-profile-details-edit-btn button{
+    height: 60px;
+    width: 200px;
+    background-color:#9932CC ;
+    color:white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    
+    
+}
+
+
+
+
+#user-profile-save-changes{ height: 60px;
+    width: 200px;
+    background-color:#9932CC ;
+    color:white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 70px;}
+
+.user-profile-details-edit-btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+ 
+}
+
+
+
+
+
+@media (max-width: 650px) {
+    .user-details-table {
+        margin-top: 10vh; /* Adjust the top margin for smaller screens */
+        margin-bottom: 10vh; /* Adjust the bottom margin for smaller screens */
+         width: 90%;
+    }
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  height: 200px;
+  box-shadow: 4px 4px 10px black;
+  
+}
+
+td{
+  
+  font-size: 1.5rem;
+  
+}
+h1{
+    font-size: 30px;
+}
+
+}
+
+
+@media (max-width: 396px) {
+    .user-details-table {
+        margin-top: 10vh; /* Adjust the top margin for smaller screens */
+        margin-bottom: 10vh; /* Adjust the bottom margin for smaller screens */
+         width: 90%;
+    }
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin: auto;
+  margin-top: 100px;
+  height: 200px;
+  box-shadow: 4px 4px 10px black;
+  
+}
+h1{
+    font-size: 20px;
+}
+
+td{
+  
+  font-size: 1rem;
+  
+}
+
+}

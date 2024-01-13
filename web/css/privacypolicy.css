@@ -1,0 +1,217 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+body{ margin: 0px;
+    padding:0px;
+    width: 100%;
+    min-height: 100vh;
+    background-image:url('../resources/img/privacy1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Poppins', sans-serif;
+    /* line-height: 1.5rem; */
+    
+}
+
+
+.privacy-heading{
+    margin-top: 90px;
+    height: 150px;
+    /* background-color: blanchedalmond; */
+   padding-top: 60px;
+    padding-left: 50px;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(23, 23, 69);
+    
+
+}
+
+.privacy-main-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.privacy-silence-img{
+    height: 750px;
+    width: 40%;
+    /* background-color:green; */
+    background-image: url('../resources/img/keep1-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  box-sizing: border-box;
+  
+
+}
+
+.privacy-para{
+    height: auto;
+    width: 60%;
+padding: 50px;
+box-sizing: border-box;
+font-size: 20px;
+line-height: 6rem;
+color: rgb(23, 23, 69);
+
+
+}
+
+
+.privacy-date{
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (width<992px)
+{
+    .privacy-silence-img  {
+        height: 600px;
+        width: 40%;
+        /* background-color:green; */
+        background-image: url('img/keep1-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      box-sizing: border-box; 
+    } 
+
+
+    .privacy-para{
+        height: auto;
+        width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 6rem;
+    
+    }
+}
+
+
+@media only screen and (width<768px)
+{
+    .privacy-silence-img{
+        height: 520px;
+        width: 40%;
+        /* background-color:green; */
+        background-image: url('img/keep1-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      box-sizing: border-box;
+      margin-top: 20px;
+      
+      
+    
+    }   
+    .privacy-para{
+        height: auto;
+        width: 45%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 5rem;
+    
+    }
+}
+
+
+@media only screen and (width<=610px)
+{
+    
+   
+
+    .privacy-main-div{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        /* align-items: center; */
+        margin-top: 65px;
+    }
+  
+
+    .privacy-heading{
+        margin-top: 65px;
+        height: auto;
+        width: 100%;
+        padding-top: 60px;
+        /* padding-left: 50px; */
+        font-size: 25px;
+        box-sizing: border-box;
+        text-align: center;
+        
+    
+    }
+
+
+
+    .privacy-para{
+        height: auto;
+        width: 90%;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 4rem;
+    
+    }
+    .privacy-silence-img{
+        height: 500px;
+        width: 80%;
+        background-image: url('img/keep1-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      box-sizing: border-box;
+      margin-top: 10px;
+      
+      
+    
+    }  
+    
+}
+
+@media only screen and (width<=400px)
+{ .privacy-para{
+    height: auto;
+    width: 90%;
+padding: 40px;
+box-sizing: border-box;
+font-size: 18px;
+line-height: 4rem;
+
+}
+.privacy-silence-img{
+    height: 400px;
+    width: 80%;
+   
+  
+  
+
+}  
+.privacy-heading{
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+   padding-top: 60px;
+    /* padding-left: 50px; */
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: left;
+    
+
+}
+
+} 

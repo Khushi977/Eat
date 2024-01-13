@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+:root{
+    --main-color:#0a3150;
+    --main-color-light:#063a64;
+    --primary:#cfdde6;
+    --cotainer-width-lg:76%;
+    --containr-width-md:90%;
+    --containr-width-sm:94%;
+
+    --transition: all 400ms ease;
+    
+}
+body{
+    width: 100%;
+    background-color: antiquewhite;
+}
+#about-header{
+    margin-top: 8rem;
+    background-image:url('../resources/img/why-banner.png') ;
+    width: 100%;
+    height: 432px;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#about-header h2,
+#about-header p{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+
+.section-m1{
+    margin: 40px 0;
+}
+#about-head{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+}
+.eat-about h3{
+    font-size: 3.5rem;
+}
+.eat-about p{
+    font-size: 2rem;
+    margin:15px 0 20px 0;
+
+    
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+abbr{
+    font-size: 1.8rem;
+}
+
+
+/* meet our team */
+.team h2{
+    font-size: 5rem;
+}
+.team{
+    background: white;
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0.5);
+}
+
+.team_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+.team_member{
+    background: var(--main-color);
+    padding: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    color: #cfdde6;
+}
+.team_member-image img{
+    width: 90%;
+
+}
+.team_member:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--main-color);
+}
+
+.team_member-image img{
+    margin-left: 2rem;
+    filter: saturate(0);
+    align-items: center;
+    
+}
+.team_member:hover img{
+    filter: saturate(1);
+}
+.team_member-info *{
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.team_member-info h4{
+    /* color: white; */
+    font-size: 2rem;
+}
+
+.team_member-socials{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background:var(--primary);
+    border-radius: 1rem 0 0 1rem ;
+    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+    font-size: 2.5rem;
+}
+.team_member-socials li a{
+    color: #063a64;
+    
+}
+.team_member:hover .team_member-socials{
+    right: 0;
+}
+.team_member-socials a{
+    padding: 1rem;
+}
+
+.container{
+width:var(--cotainer-width-lg);
+margin: 0 auto ;
+
+}
+section{
+padding:6rem 0;
+}
+section h2{
+text-align: center;
+margin-bottom: 4rem;
+}
+h1,h2,h3,h4,h5{
+line-height: 1.2;
+}
