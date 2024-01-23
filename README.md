@@ -28,6 +28,17 @@ EatEase is a comprehensive diet planner website that helps users manage their di
    - A dedicated login for doctors to access their appointment list.
    - Enables doctors to stay organized and manage their consultations effectively.
 
+ ## Technologies Used
+
+- JSP
+- Servlet
+- SQL
+- CSS
+- HTML
+- JavaScript
+- Java
+- NetBeans IDE
+
 ## Project Screenshots
 
 ### Home Page
@@ -66,19 +77,6 @@ EatEase is a comprehensive diet planner website that helps users manage their di
 ![Profile Page](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/41716ee5-01b6-4de6-9113-c7fdf3e8e9f7)
 - User profile page displaying personal information and settings.
 
-
-
-
-## Technologies Used
-
-- JSP
-- Servlet
-- SQL
-- CSS
-- HTML
-- JavaScript
-- Java
-- NetBeans IDE
 
 ## Team Members
 
