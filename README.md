@@ -28,7 +28,7 @@ EatEase is a comprehensive diet planner website that helps users manage their di
    - A dedicated login for doctors to access their appointment list.
    - Enables doctors to stay organized and manage their consultations effectively.
 
-## Screenshots
+## Project Screenshots
 
 ### Home Page
 ![Home Page](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/c5af233e-d484-4354-bf49-5f299255914f)
@@ -38,6 +38,10 @@ EatEase is a comprehensive diet planner website that helps users manage their di
 ![Login Page](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/182d5924-79d8-4b1c-b444-0e9c731a841b)
 - Secure login page for user authentication, ensuring a personalized experience.
 
+### Home Page Variation 1
+![Home Page Variation 1](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/65ccc552-3ea7-475c-8ed0-ae0e66d47f84)
+- An alternate version of the home page with a different layout or content arrangement.
+
 ### BMI Page
 ![BMI Page](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/ae5cf962-799a-4909-b4e1-c9624c0b5c39)
 - The BMI calculator page helps users determine their Body Mass Index, providing insights into their current health status.
@@ -45,10 +49,6 @@ EatEase is a comprehensive diet planner website that helps users manage their di
 ### Diet Chart Page
 ![Diet Chart Page](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/baf5fa77-2a06-4afa-84c2-df6477be1f0a)
 - Personalized diet chart generated based on the user's BMI and health goals.
-
-### Home Page Variation 1
-![Home Page Variation 1](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/65ccc552-3ea7-475c-8ed0-ae0e66d47f84)
-- An alternate version of the home page with a different layout or content arrangement.
 
 ### Appointment Page
 ![Appointment Page](https://github.com/Khushi977/EatEase-Diet-Planner-Website/assets/130831307/e4dc7a2a-00f2-4477-8d30-8812da2a75e2)
