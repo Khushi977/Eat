@@ -2,6 +2,7 @@
 
 EatEase is a comprehensive diet planner website that helps users manage their diet effectively. It utilizes various technologies such as JSP, Servlet, SQL, CSS, HTML, JavaScript, and Java. The development environment is based on NetBeans IDE. The team behind this project consists of three dedicated members.
 
+ # Watch Demo Video
 [![Watch the Demo Video](https://img.youtube.com/vi/VleNwK-Xywc/0.jpg)](https://www.youtube.com/watch?v=VleNwK-Xywc)
 
 
@@ -82,10 +83,9 @@ EatEase is a comprehensive diet planner website that helps users manage their di
 ## Team Members
 
 1. [Suprava Sarkar](link-to-github-profile)
-2. [Member 2 Name](link-to-github-profile)
-3. [Member 3 Name](link-to-github-profile)
+2. [Shakshi Sharma](https://github.com/shakshi2026)
 
-## Getting Started
+## Project Setup
 
 1. Clone the repository.
 2. Set up the required database tables.
@@ -101,4 +101,3 @@ We welcome contributions! If you'd like to contribute to the project, please fol
 This project is licensed under the [MIT License](link-to-license).
 
 ---
-**Note:** Replace the placeholder text and image links with the actual content relevant to your project.
