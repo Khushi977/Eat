@@ -2,7 +2,7 @@
 
 EatEase is a comprehensive diet planner website that helps users manage their diet effectively. It utilizes various technologies such as JSP, Servlet, SQL, CSS, HTML, JavaScript, and Java. The development environment is based on NetBeans IDE. The team behind this project consists of three dedicated members.
 
- # Watch Demo Video
+ # Watch Demo Video 👇
 [![Watch the Demo Video](https://img.youtube.com/vi/VleNwK-Xywc/0.jpg)](https://www.youtube.com/watch?v=VleNwK-Xywc)
 
 
